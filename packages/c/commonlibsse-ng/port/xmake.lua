@@ -120,3 +120,4 @@ target("CommonLibSSE")
     add_cxxflags("clang::-Wno-overloaded-virtual")
     add_cxxflags("clang::-Wno-delete-non-abstract-non-virtual-dtor")
     add_cxxflags("clang::-Wno-reinterpret-base-class")
+    add_cxxflags("cl::/EHsc") -- Add EHsc Flag for Try Catch
